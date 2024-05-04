@@ -19,18 +19,16 @@ const MainCarousel = () => {
     />
   ));
   return (
-    <div>
-      <AliceCarousel
-        // mouseTracking
-        items={items}
-        disableButtonsControls
-        autoPlay
-        autoPlayInterval={2000}
-        infinite
-        // responsive={responsive}
-        // controlsStrategy="alternate"
-      />
-    </div>
+    <AliceCarousel
+      // mouseTracking
+      items={items}
+      disableButtonsControls
+      autoPlay
+      autoPlayInterval={2000}
+      infinite
+      // responsive={responsive}
+      // controlsStrategy="alternate"
+    />
   );
 };
 
